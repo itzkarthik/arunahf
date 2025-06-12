@@ -625,6 +625,118 @@ const App = () => {
                 </button>
               </div>
             </div>
+
+            <div className="fabric-card animate-on-scroll">
+              <div className="card-image">
+                <img 
+                  src={fabricData.patchwork.image}
+                  alt="Patch Work Fabrics" 
+                />
+                <div className="card-overlay">
+                  <div className="overlay-content">
+                    <h4>Creative Assembly</h4>
+                    <p>Artistic combinations</p>
+                  </div>
+                </div>
+              </div>
+              <div className="card-content">
+                <div className="card-badge">{fabricData.patchwork.badge}</div>
+                <h3 className="card-title">{fabricData.patchwork.title}</h3>
+                <p className="card-description">
+                  {fabricData.patchwork.description}
+                </p>
+                <button className="card-btn" onClick={() => openModal('patchwork')}>
+                  <span>View Process</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="m9 18 6-6-6-6"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <div className="fabric-card animate-on-scroll">
+              <div className="card-image">
+                <img 
+                  src={fabricData.rotaryprint.image}
+                  alt="Rotary Print Garments" 
+                />
+                <div className="card-overlay">
+                  <div className="overlay-content">
+                    <h4>Modern Printing</h4>
+                    <p>Consistent patterns</p>
+                  </div>
+                </div>
+              </div>
+              <div className="card-content">
+                <div className="card-badge">{fabricData.rotaryprint.badge}</div>
+                <h3 className="card-title">{fabricData.rotaryprint.title}</h3>
+                <p className="card-description">
+                  {fabricData.rotaryprint.description}
+                </p>
+                <button className="card-btn" onClick={() => openModal('rotaryprint')}>
+                  <span>View Process</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="m9 18 6-6-6-6"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <div className="fabric-card animate-on-scroll">
+              <div className="card-image">
+                <img 
+                  src={fabricData.pintuck.image}
+                  alt="Pintuck Fabrics" 
+                />
+                <div className="card-overlay">
+                  <div className="overlay-content">
+                    <h4>Elegant Pleating</h4>
+                    <p>Sophisticated texture</p>
+                  </div>
+                </div>
+              </div>
+              <div className="card-content">
+                <div className="card-badge">{fabricData.pintuck.badge}</div>
+                <h3 className="card-title">{fabricData.pintuck.title}</h3>
+                <p className="card-description">
+                  {fabricData.pintuck.description}
+                </p>
+                <button className="card-btn" onClick={() => openModal('pintuck')}>
+                  <span>View Process</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="m9 18 6-6-6-6"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <div className="fabric-card animate-on-scroll">
+              <div className="card-image">
+                <img 
+                  src={fabricData.gray.image}
+                  alt="Gray Fabrics" 
+                />
+                <div className="card-overlay">
+                  <div className="overlay-content">
+                    <h4>Timeless Neutrals</h4>
+                    <p>Versatile sophistication</p>
+                  </div>
+                </div>
+              </div>
+              <div className="card-content">
+                <div className="card-badge">{fabricData.gray.badge}</div>
+                <h3 className="card-title">{fabricData.gray.title}</h3>
+                <p className="card-description">
+                  {fabricData.gray.description}
+                </p>
+                <button className="card-btn" onClick={() => openModal('gray')}>
+                  <span>View Process</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="m9 18 6-6-6-6"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </section>

@@ -124,6 +124,78 @@ const App = () => {
       ],
       colors: ["Indigo Blue", "Deep Brown", "Rust Orange", "Natural Cream", "Maroon Red"],
       applications: ["Traditional Garments", "Art Pieces", "Scarves", "Table Runners", "Decorative Fabrics"]
+    },
+    patchwork: {
+      title: "Patch Work Fabrics",
+      badge: "Creative",
+      description: "Artistically assembled fabric pieces creating unique patterns through careful stitching and creative combinations.",
+      detailedDescription: "Patchwork fabric is the art of sewing together pieces of fabric into a larger design. This technique combines different colors, patterns, and textures to create visually stunning and unique textiles. Our skilled artisans carefully select and arrange fabric pieces to create harmonious designs that tell stories through color and pattern. Each patchwork piece is meticulously crafted, ensuring durability and aesthetic appeal.",
+      image: "https://images.pexels.com/photos/6764690/pexels-photo-6764690.jpeg",
+      videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ", // Replace with actual Patchwork making video
+      process: [
+        "Design planning and fabric selection",
+        "Cutting fabric pieces to precise measurements",
+        "Color coordination and pattern arrangement",
+        "Hand or machine stitching of pieces",
+        "Border application and finishing",
+        "Quality control and final pressing"
+      ],
+      colors: ["Multi-colored", "Coordinated Palettes", "Contrasting Combinations", "Earth Tones", "Vibrant Mixes"],
+      applications: ["Quilts", "Home Decor", "Fashion Accessories", "Bags & Purses", "Decorative Panels"]
+    },
+    rotaryprint: {
+      title: "Rotary Print Garments",
+      badge: "Modern",
+      description: "High-quality machine-printed fabrics with consistent patterns and vibrant colors using advanced rotary printing technology.",
+      detailedDescription: "Rotary printing is a modern textile printing method that uses cylindrical screens to apply designs to fabric continuously. This technique allows for high-speed, consistent printing of complex patterns with excellent color registration. Our rotary print fabrics combine traditional Indian motifs with contemporary designs, creating versatile textiles suitable for both traditional and modern garments.",
+      image: "https://images.unsplash.com/photo-1701887875566-dec20a2ad137",
+      videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ", // Replace with actual Rotary Print making video
+      process: [
+        "Design digitization and screen preparation",
+        "Color mixing and consistency testing",
+        "Fabric preparation and alignment",
+        "Continuous rotary printing process",
+        "Heat setting and color fixation",
+        "Quality inspection and finishing"
+      ],
+      colors: ["Bright Florals", "Geometric Patterns", "Traditional Motifs", "Contemporary Designs", "Fashion Colors"],
+      applications: ["Ready-made Garments", "Kurtas & Kurtis", "Children's Wear", "Casual Clothing", "Fashion Apparel"]
+    },
+    pintuck: {
+      title: "Pintuck Fabrics",
+      badge: "Elegant",
+      description: "Sophisticated fabrics featuring delicate pleated detailing that adds texture, dimension, and refined elegance to garments.",
+      detailedDescription: "Pintuck fabrics are characterized by narrow, decorative pleats that are stitched into the fabric to create texture and visual interest. This technique adds dimension and sophistication to textiles, creating elegant surface patterns through the play of light and shadow. Our pintuck fabrics are carefully crafted to maintain consistency in pleat spacing and depth, resulting in luxurious textiles perfect for formal and semi-formal wear.",
+      image: "https://images.unsplash.com/photo-1601232251778-81ba856938c8",
+      videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ", // Replace with actual Pintuck making video
+      process: [
+        "Fabric preparation and marking",
+        "Precision pleating with specialized equipment",
+        "Steam setting of pleats",
+        "Careful stitching to secure pleats",
+        "Final pressing and shaping",
+        "Quality assessment and finishing"
+      ],
+      colors: ["Classic White", "Soft Pastels", "Rich Jewel Tones", "Elegant Neutrals", "Metallic Accents"],
+      applications: ["Formal Shirts", "Blouses", "Wedding Wear", "Party Dresses", "Premium Garments"]
+    },
+    gray: {
+      title: "Gray Fabrics",
+      badge: "Versatile",
+      description: "Timeless gray fabrics in various shades and textures, providing sophisticated neutrals for diverse applications and styling needs.",
+      detailedDescription: "Gray fabrics represent the epitome of versatility and sophistication in textile design. Our collection includes various shades from light silver-gray to deep charcoal, each carefully woven or dyed to achieve the perfect tone and texture. Gray fabrics serve as excellent foundations for both traditional and contemporary designs, offering endless possibilities for coordination with other colors and patterns.",
+      image: "https://images.unsplash.com/photo-1715867125247-120c0fc4593b",
+      videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ", // Replace with actual Gray Fabric making video
+      process: [
+        "Yarn selection and quality testing",
+        "Precise dye formulation for desired shade",
+        "Controlled dyeing process",
+        "Weaving with attention to texture",
+        "Finishing treatments for durability",
+        "Color consistency verification"
+      ],
+      colors: ["Light Silver", "Medium Gray", "Charcoal", "Blue-Gray", "Warm Gray"],
+      applications: ["Suiting", "Formal Wear", "Home Textiles", "Corporate Uniforms", "Contemporary Fashion"]
     }
   };
 
